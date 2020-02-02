@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import Vue from 'vue'
 import App from './App.vue'
 import vuetify from './plugins/vuetify';
@@ -16,7 +15,6 @@ const firebaseConfig = {
   appId: process.env.VUE_APP_appId,
 
 };
-console.log(firebaseConfig)
 firebase.initializeApp(firebaseConfig);
 
 new Vue({
