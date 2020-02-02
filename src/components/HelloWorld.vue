@@ -10,7 +10,7 @@
           dark
           v-on="on"
         >
-          Click Me
+          v-Dialog
         </v-btn>
       </template>
 
@@ -50,7 +50,7 @@
           dark
           v-on="on"
         >
-          Dropdown
+          v-Menu
         </v-btn>
       </template>
       <v-list>
@@ -69,7 +69,7 @@
 
     <v-tooltip bottom>
       <template v-slot:activator="{ on }">
-        <v-btn color="primary" dark v-on="on">Button</v-btn>
+        <v-btn color="primary" dark v-on="on">v-Tooltip</v-btn>
       </template>
       <span>Tooltip</span>
     </v-tooltip>
